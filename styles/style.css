@@ -2,27 +2,26 @@ body{background-color: rgb(146, 145, 145)}
 h1{text-align: center}
 #fff{color: green}
 .second{text-align: center}
-        .sec{width: 1000px
+        .sec{width: 700px;
             padding: 0;
             margin-left: 10%;}
-        .secc{width: 1200px
+        .secc{width: 700px;
             padding: 0;
             margin-left: 10%;}
-        .seccc{width: 700
+        .seccc{width: 700px;
             padding: 0;
             margin-left: 10%;}
 #zero{color: rgb(238, 28, 63)}
-#one{color: rgba(5, 26, 6, 0.445)}
+#one{color: rgba(1, 35, 148, 0.767)}
 #two{color: rgb(28, 9, 110)}
 
-.stroki{align="center";}
+
 #special{list-style-type: decimal}
 li{font-size: 150%;}
 #test{list-style-type: none;}
 #test:before {
     content: "$";
     }
-
 #teste{list-style-type: none;}
 #teste:before {
     content: "%";
