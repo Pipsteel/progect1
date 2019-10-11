@@ -2,7 +2,7 @@ body{background-color: rgb(175, 172, 172)}
 h1{text-align: center}
 #fff{color: green}
 #centr{text-align: center;}
-
+a{text-decoration: none;}
     .sec{width: 700px;
         padding: 0;
         margin-left: 10%;
