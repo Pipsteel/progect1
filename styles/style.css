@@ -29,9 +29,8 @@ li{font-size: 150%;}
     #tested:before {
         content: "&";
         }
-.stroki{margin:60px ;
-        position: absolute;
-        margin-left :10%;}
+.stroki{margin:0 auto ;
+      width: 50%;}
 
 .ordinary{color: rgb(133, 5, 69);}
 .ordinary1{color: rgb(50, 92, 12);

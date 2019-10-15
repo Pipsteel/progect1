@@ -1,0 +1,45 @@
+header{width: 90%;
+    margin: auto 5%;
+    background-color: black;
+    height: 15vh;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;}
+#menu{position: fixed;
+    height: 600px;
+    width: 10%;
+    background-color: rgba(139, 139, 139, 0.4);
+    left: 0;
+    top: 30%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 3;}
+#spisok{font-size: larger;}
+#main{border-radius: 40px;
+    top: 15%;
+    margin-left: 5%;
+    width: 90%;
+    height: 70vh;
+    background-color: rgba(250, 235, 215, 0.562);}   
+#text{list-style-type: decimal;
+    height: 80%;
+    position: inherit;
+    margin-top: 0px;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 5%;
+    line-height: 2.5;} 
+h1{text-align: center;
+    margin:0;
+    padding: 0;}
+footer{width: 90%;
+    position: static;
+    margin: auto 5%;
+    background-color: black;
+    height: 15vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    bottom: 0;}
+h3{text-align: center;
+    color: bisque;
+    margin: 0 ;
+    padding-top:2% ;}

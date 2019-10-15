@@ -1,0 +1,64 @@
+
+#main{position: absolute;
+    width: 800px;
+    height: 800px;
+    margin-left:20%;
+    margin-top: 1%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;}
+#qq{position: absolute;
+left: 0;
+top: 0;
+background-color: chartreuse;
+width: 60%;
+height: 20%;}
+#ww{position: absolute;
+right: 0;
+top: 0;
+background-color: rgb(226, 240, 178);
+height: 20%;
+width: 40%;}
+#ee{position: absolute;
+    left: 0;
+    top: 20%;
+    background-color: chartreuse;
+    width: 20%;
+    height: 40%;}
+#rr{position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 60%;
+    width: 60%;
+    background-color: violet;}
+#tt{position: absolute;
+    right: 0;
+    top: 20%;
+    height: 40%;
+    width: 20%;
+    background-color: rgb(226, 240, 178);}
+#yy{position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 40%;
+    width: 20%;
+    background-color: rgb(24, 23, 119);}
+#uu{position: absolute;
+    right: 20%;
+    bottom: 0;
+    height: 20%;
+    width: 40%;
+    background-color: rgb(24, 23, 119);}
+#ii{position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 20%;
+    background-color:palegoldenrod}
+#oo{position: absolute;
+    left: 20%;
+    bottom: 0;
+    height: 20%;
+    width: 20%;
+    background-color:palegoldenrod}
+    
