@@ -1,5 +1,6 @@
 header{width: 99%;
     height: 10vh;
+    /* background-color: rgba(20, 5, 5, 0.55); это прозрачный слой но он смотрится хуже*/
     background-color: black;
     border-bottom-right-radius: 10px ;
     border-bottom-left-radius: 10px ;
@@ -7,7 +8,7 @@ header{width: 99%;
     padding: 0;
     top: 0;
     margin: 0 auto;}
-header:hover{background-color: rgba(0, 0, 0, 0.212);}
+header:hover{background-color: rgba(235, 85, 85, 0.55);}
 #inst{height: 80%;
     position: absolute;
     top: 10%;
@@ -29,8 +30,10 @@ figure{position: inherit;
     background-color: rgba(226, 146, 26, 0.253);
     display: block;
     padding: 5px;
+    border-left: 3px solid black ;
+    border-right: 3px solid black;
     border-radius:5px;
-    border: 4px black;
+    
     text-align: center;
 background-clip: padding-box;}
 #ff{float: left;
