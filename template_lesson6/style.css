@@ -384,39 +384,76 @@ background-color: white;
 	background-repeat: no-repeat;
 }
 .cont5 .center .grid-cont .item1{
-	background-image: url(./img/telone.png);
+	background-image: url(./img/index1.png);
 }
 .cont5 .center .grid-cont .item2{
-	background-image: url(./img/teletwo.png);
+	background-image: url(./img/index2.png);
 }
 .cont5 .center .grid-cont .item3{
-	background-image: url(./img/telethree.png);
+	background-image: url(./img/index3.png);
 }
 .cont5 .center .grid-cont .item4{
-	background-image: url(./img/tele4.png);
+	background-image: url(./img/index4.png);
 }
 .cont5 .center .grid-cont .item5{
-	background-image: url(./img/Project\ 05.png);
+	background-image: url(./img/index5.png);
 }
 .cont5 .center .grid-cont .item6{
-	background-image: url(./img/Project\ 06.png);
+	background-image: url(./img/index6.png);
 }
+
+.cont5 .center .grid-cont .down{
+	background-color: #fbfaf8;
+	max-width: 370px;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	margin-top: 237px;
+	
+}
+.cont5 .center .grid-cont .down h2{
+
+margin: 0;
+padding: 0;
+max-width: 340px;
+margin-left: 30px;
+text-align: left;
+color: #cebda7;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+font-size: 20px;
+padding-top:20px;
+margin-bottom: 14px;
+}
+
+.cont5 .center .grid-cont .down p{
+margin: 0;
+padding: 0;
+max-width: 340px;
+margin-left: 30px;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 14px;
+color: #d1d1d1;
+}
+
 .cont5 .center .grid-cont div svg{
-	position:inherit ;
+	position: relative;
 	font-size: 30px;
 	display: none;
 	margin: 0 auto;
-	padding-top: 25%;
+	top: 25%;
+	left: 30%;
 	margin: 16px;
+	margin-top: 30%;
 	color: #ffffff;
 }
-.cont5 .center .grid-cont div:hover svg{
+.cont5 .center .grid-cont div:hover svg {
+	position: relative;
 	display:inline;
 }
-.cont5 .center .grid-cont div svg:nth-child(1){
-	padding-left: 30%;
-}
-
 .cont5 .center .grid-cont div svg:nth-child(1):hover{
 	color: #c7b299;
 }
@@ -424,11 +461,17 @@ background-color: white;
 	color: #c7b299;
 }
 
+.cont5 .center .grid-cont div:hover .down{
+	background-color: #362f2d;
+	margin-top: 78px;
+}
+.cont5 .center .grid-cont div:hover .down h2{color: #d1d1d1;}
+.cont5 .center .grid-cont div:hover .down p{color: #cebda7;}
 .cont5 .butt{
 	margin: 0 auto;
 	text-align: center;
 	margin-top:55px ;
-	margin-bottom: 200px;;
+	margin-bottom: 200px;
 }
 .cont5 .butt a{
 	position: inherit;
