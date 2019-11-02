@@ -572,13 +572,80 @@ input[type="email"]::placeholder { color: # #373737;padding-left: 20px;   font-s
 				margin: 0 auto;
 				padding-top: 5%;
 			}
-			
+
+			.cont4 .cent4 img{
+				position: inherit ;
+				margin-left: 0;
+				margin-top: 0;
+				width: 500px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				padding-bottom: 1%;
+		}
+			.cont4 .right4 img{
+				position: inherit ;
+				margin-left: 0;
+				margin-top: 0;
+				width: 500px;
+				height: auto;
+				display: block;
+				margin: 0 auto;
+				padding-bottom: 3%;
+		}
 	}
 
-	@media (max-width: 425px){
+	@media (max-width: 550px){
+		.cont4 {height: 720px;}
+		.cont4 .cent4 img{
+			padding-top: 15% ;
+			position: inherit ;
+			margin-left: 0;
+			margin-top: 0;
+			width: 400px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 1%;
+	}
+		.cont4 .right4 img{
+			padding-top: 18% ;
+			position: inherit ;
+			margin-left: 0;
+			margin-top: 0;
+			width: 400px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 3%;
+	}
+}
+
+	@media (max-width: 460px){
 		header .items h1{
 			font-size: 30px;
 		letter-spacing: 2px;}
+		.cont4 .cent4 img{
+			position: inherit ;
+			margin-left: 0;
+			margin-top: 0;
+			width: 350px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 1%;
+	}
+		.cont4 .right4 img{
+			position: inherit ;
+			margin-left: 0;
+			margin-top: 0;
+			width: 350px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			padding-bottom: 3%;
+	}
+
 		}
 
 	
