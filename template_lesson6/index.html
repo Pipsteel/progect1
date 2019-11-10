@@ -13,8 +13,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-   
-    
+    <link rel="stylesheet" href="./assets/animate.css">
+    <link rel="stylesheet" href="./assets/owl.carousel.css">
+    <link rel="stylesheet" href="./assets/owl.theme.default.css">
+
     
 
 </head>
@@ -28,7 +30,12 @@
                  <p>Waxom</p>
              </div>
              <div class="header_navbar">
-                 <ul>
+                 <span class="burger" id="burger">
+                     <i></i>
+                     <i></i>
+                     <i></i>
+                 </span>
+                 <ul class="menu" id="menu">
                      <li><a href="#">Home</a></li>
                      <li><a href="#">About Us</a><t/li>
                      <li><a href="#">Portfolio</a></li>
@@ -163,11 +170,17 @@
         </section>
 
         <section class="cont6">
-            <div class="center">
-                <div class="button"><img src="./img/button.png" alt="pusk"></div>
-                <h2>Waxom Video Presentation</h2>
-                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
-            </div>
+            <div class="coco">
+        <div class="overlay">
+            <div class="button"><img src="./img/button.png" alt="pusk"></div>
+            <h2>Waxom Video Presentation</h2>
+            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+        </div>
+        <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+            <source src="video/plane.mp4" type="video/mp4">
+            <source src="video/plane.webm" type="video/webm">
+        </video>
+        </div>
         </section>
 
         <section class="cont7">
@@ -300,13 +313,13 @@
             <div class="center">
                 <div class="conteiner">
                     <div class="eleven row ">
-                        <div class=" logo frst col-sm-3 col-xl-3 col-md-3 col-lg-3">
+                        <div class=" logo frst col-sm-3 col-xl-3 col-md-3 col-lg-3" style="width: 280;">
                             <img src="./img/logos.png" alt="">
                             <p id="qwe">Waxom</p>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
                             <a href="#">Read More<i class="fas fa-caret-right"></i></a>
                         </div>
-                        <div class=" elsec frst col-sm-3 col-xl-3 col-md-3 col-lg-3">
+                        <div class=" elsec frst col-sm-3 col-xl-3 col-md-3 col-lg-3" style="width: 280;">
                             <h2>Resent Posts</h2>
                             <div class="block">
                             <p class="data">September 08, 2015</p>
@@ -323,52 +336,53 @@
                             <p class="main">Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
                         </div>
                         </div>
-                        <div class=" elthrd frst col-sm-3 col-xl-3 col-md-3 col-lg-3">
+                        <div class=" elthrd frst col-sm-3 col-xl-3 col-md-3 col-lg-3" style="width: 280;">
                             <h2>Resent Posts</h2>
                             <div class="block">
-                            <p class="main">@waxom Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                            <p class="main"><a href="#">@waxom</a> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
                             <p class="data">3 mins ago</p>
                             </div>
                             <hr>
                             <div class="block">
-                            <p class="main">Mirum est #envato notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                            <p class="main">Mirum est <a href="#">#envato</a> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
                             <p class="data">5 hours ago</p>
                             <hr>
                             </div>
                             <div class="block">
-                            <p class="main">Soluta nobis option bit.ly/1Hniso7</p>
+                            <p class="main">Soluta nobis option <span>bit.ly/1Hniso7</span></p>
                             <p class="data">20 days ago</p>
                         </div>
-                        <div class=" elfor frst col-sm-3 col-xl-3 col-md-3 col-lg-3">
-                            <a href="#"><img src="./img/imgq.png" alt=""></a>
-                            <a href="#"><img src="./img/imgw.png" alt=""></a>
-                            <a href="#"><img src="./img/imge.png" alt=""></a>
-                            <a href="#"><img src="img/imgr.png" alt=""></a>
-
                         </div>
+                        <div class=" elfor frst col-sm-3 col-xl-3 col-md-3 col-lg-3" style="width: 280;">
+                                <h2>Dribbble Widget</h2>
+                                <div class="block">
+                                <a href="#"><img src="./img/imgq.png" alt=""></a>
+                                <a href="#"><img src="./img/imgw.png" alt=""></a>
+                                <a href="#"><img src="./img/imge.png" alt=""></a>
+                                <a href="#"><img src="./img/imgr.png" alt=""></a>
+                            </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="cont12">
+        <footer>
             <div class="center">
-                <div class="left">
-                    <p id="cop">Copyright © 2015 Waxom </p>
-                    <hr>
-                    <p id="pri">Privacy Policy   </p>
-                    <hr>
-                    <p id="faq">FAQ </p>
-                    <hr>
-                    <p id="sup">Support</p>
-                    <hr>
-                </div>
-                <div class="right">
-
-                </div>
+                <ul>
+                    <li class=" borde">Copyright © 2015 <span>Waxom</span></li>
+                    <li class=" borde"><a href="#">Privacy Policy</a> </li>
+                    <li class=" borde"><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+                <ul>
+                    <li class=" borde">Designed by <span>ThemeFire</span></li>
+                    <li>Only on <span>Envato Market</span></li>
+                </ul>
             </div>
-        </section>
+        </footer>
+      
 </div>
-
+<script src="./assets/owl.carousel.js"></script>
+<script src="./script.js"> </script>
 <script src="fontawesome/js/all.js"></script>
 <script src="./assets/wow.js"></script>
 <script>
